@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
+import "./Cadastro.css";
 import Facebook from './assets/Facebook-icon.png'
 import Google from './assets/Google-logo.png'
 import Apple from './assets/Apple-logo.png'
@@ -18,8 +18,9 @@ function App() {
         <input type="password" placeholder="Digite sua senha" />
 
         <div className="opcoes">
-          
+          <label>
             <input type="checkbox" /> Manter conectado
+          </label>
           <a href="#">esqueceu a senha?</a>
         </div>
 
